@@ -1,0 +1,27 @@
+{
+    "name": "laravel-schema/commons",
+    "description": "Laravel Schema Package for Commons",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Neftalí Yagua",
+            "email": "despacho@neftaliyagua.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "LaravelSchema\\Commons\\CommonsServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "LaravelSchema\\Commons\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}
